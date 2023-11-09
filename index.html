@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" /> 
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Festive&family=Merriweather&family=Montserrat&family=Roboto:wght@300;400&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Lior Hatiel's Website</title>
+
+    <!-- <script defer src="script.js"></script> -->
+</head>
+<body>
+    <header class="header">
+        <div class="header_content">
+            <div class="header_logo_container">
+                <img src="images/Small_Logo.png" alt="Lior Hatiel Logo" class="header_logo" id="logo">
+            </div>
+            <a class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="header_nav">
+                <!-- The links of the navigation bar -->
+                <ul class="header_links">
+                    <li class="header_link_item">
+                        <a href="#" class="navbar_a">Home</a>
+                     </li>
+                    <li id="aboutLink" class="header_link_item">
+                        <a href="#about_section" class="navbar_a">About</a>
+                     </li>
+                    <li id="webLink" class="header_link_item">
+                        <a href="#web_development_section" class="navbar_a">Web Dev</a> 
+                    </li>
+                    <li id="gameLink" class="header_link_item">
+                        <a  href="#game_development_section" class="navbar_a">Game Dev</a> 
+                    </li>
+                    <!-- <li class="header_link_item"><a href="#" class="navbar_a">Contact</a> </li> -->
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero_section">
+        <div class="hero_section_content">
+            <h1 class="hero_h1"> HEY, I'M LIOR HATIEL </h1>
+            <div class="hero_info_p">
+                <p class="hero_info_text">A third-year computer science student, self-taught in Unity game development, pursuing web development expertise.</p>
+            </div>
+            <div class="hero_projects_button"> 
+                <a id="btnToProject" class="btn btn_cta">Projects</a>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="about_section" id="about_section">
+        <div class="main_container">
+            <h2 class="about_h2">About Me</h2>
+            <p class="about_p">Hey there! My name is Lior Hatiel. I'm an autodidact with a passion for technology and a knack for learning. 
+                My journey into the world of development began during the Covid-19 pandemic in 2020, well before I even kicked off my Computer Science degree.
+                During those challenging times, I immersed myself in the intricacies of game development, driven by a self-taught spirit. </p>
+            <p class="about_p">Fast forward to today, and I'm a Third-Year student pursuing a Computer Science degree at the Holon Institute of Technology (HIT).
+                In addition to my academic journey, I've taken it upon myself to delve into the world of web development with HTML, CSS, and JavaScript, despite it not being part of the official curriculum.
+            </p>
+            <p class="about_p">Balancing both my academic pursuits and hands-on experience, I've cultivated a unique blend of theoretical knowledge and practical skills, ranging from game development to the dynamic realm of web technologies.
+                I thrive on challenges and believe in the power of continuous learning. Every line of code I write is a testament to my dedication to mastering the art and science of computer science, encompassing both game and web development.
+            </p>
+            <p class="about_p">Excitingly, I'm open to job opportunities that allow me to apply and expand my skills. If you have a compelling opportunity that aligns with my passion and expertise, I'd love to hear about it!</p>
+            <div class="skills_div">
+                <h3 class="about_skills_title">My Skills</h3>
+                <div class="skills">
+                    <div class="skills-skill">HTML</div>
+                    <div class="skills-skill">CSS</div>
+                    <div class="skills-skill">JAVA SCRIPT</div>
+                    <div class="skills-skill">jQuery</div>
+                    <div class="skills-skill">C#</div>
+                    <div class="skills-skill">UNITY</div>
+                    <div class="skills-skill">WebGL</div>
+                    <div class="skills-skill">C</div>
+                    <div class="skills-skill">C++</div>
+                    <div class="skills-skill">SQL</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="web_development_section" id="web_development_section">
+        <div class="main_container_projects">
+            <h2 class="about_h2">Web Projects</h2>
+            <p class="about_projects">Here you will discover a selection of websites I've crafted on my journey, each accompanied by a link for further exploration.</p>
+            <div class="projects_content">
+                 <div class="project_row">
+                    <div class="project_row_image"> 
+                        <img src="images/web/first_css_personal_website.png" alt="example website screenshot" class="projects__row-img" loading="lazy">
+                    </div>
+                    <div class="project_row_text">
+                        <h3 class="project_row_text_title">HTML-CSS Personal Website</h3>
+                        <p class="project_row_text_content">The starting point of my web journey, where I used HTML and CSS for the first time to build my initial website.</p>
+                        <div class="btn_container">
+                            <a class="btn btn_cta_projects btn_project" href="https://liorhatiel.github.io/HTML-CSS-Personal-Website/" target="_blank">To The Website</a>
+                        </div>
+                    </div>
+                </div>
+               <div class="project_row">
+                    <div class="project_row_image"> 
+                        <img src="images/web/tindog.png" alt="example website screenshot" class="projects__row-img" loading="lazy">
+                    </div>
+                    <div class="project_row_text">
+                        <h3 class="project_row_text_title">Tindog</h3>
+                        <p class="project_row_text_content">With this project, I took a significant step forward in enhancing site visibility. While the course utilized Bootstrap, I elevated the experience by handcrafting every detail in pure CSS.</p>
+                        <div class="btn_container">
+                            <a class="btn btn_cta_projects btn_project" href="https://liorhatiel.github.io/HTML-CSS-Tindog/" target="_blank">To The Website</a>
+                        </div>
+                    </div>
+                </div> 
+                 <div class="project_row">
+                    <div class="project_row_image"> 
+                        <img src="images/web/simon_web.png" alt="example website screenshot" class="projects__row-img" loading="lazy">
+                    </div>
+                    <div class="project_row_text">
+                        <h3 class="project_row_text_title">Simon Web Game</h3>
+                        <p class="project_row_text_content">As someone rooted in game development, this site was a perfect fit for honing my skills in DOM manipulation.</p>
+                        <div class="btn_container">
+                            <a class="btn btn_cta_projects btn_project" href="https://liorhatiel.github.io/simon-game/" target="_blank">To The Website</a>
+                        </div>
+                    </div>
+                </div>
+               <div class="project_row">
+                    <div class="project_row_image"> 
+                        <img src="images/web/bankist_app.png" alt="example website screenshot" class="projects__row-img" loading="lazy">
+                    </div>
+                    <div class="project_row_text">
+                        <h3 class="project_row_text_title">Bankist App</h3>
+                        <p class="project_row_text_content">This website serves as a minimalist banking app, allowing users to perform basic operations like fund transfers, loan requests, and account closures. Furthermore, users can track the latest transactions on their account.</p>
+                        <div class="btn_container">
+                            <a class="btn btn_cta_projects btn_project" href="https://liorhatiel.github.io/bankist-app/" target="_blank">To The Website</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project_row last">
+                    <div class="project_row_image"> 
+                        <img src="images/web/bankist_web.png" alt="example website screenshot" class="projects__row-img" loading="lazy">
+                    </div>
+                    <div class="project_row_text">
+                        <h3 class="project_row_text_title">Bankist Website</h3>
+                        <p class="project_row_text_content">This site stands as the official platform for the Banksit app, representing my most substantial project to date. It reflects the practical application of concepts acquired during my web development journey, bringing to life the ideas and skills gained in my coursework.</p>
+                        <div class="btn_container">
+                            <a class="btn btn_cta_projects btn_project" href="https://liorhatiel.github.io/bankist-website/" target="_blank">To The Website</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="game_development_section" id="game_development_section">
+        <div class="main_container_projects">
+            <h2 class="about_h2">Game Projects</h2>
+            <p class="about_projects" style="max-width: 65rem">Here you will explore a collection of games I've developed on my journey, each accompanied by a link for a closer look. Feel free to click the link and enjoy playing the games directly in your computer's browser.</p>
+            <div class="projects_content">
+                <div class="project_row">
+                    <div class="project_row_image"> 
+                        <img src="images/game/spikes_avoider.png" alt="example website screenshot" class="projects__row-img" loading="lazy">
+                    </div>
+                    <div class="project_row_text">
+                        <h3 class="project_row_text_title">Spikes Avoider</h3>
+                        <p class="project_row_text_content">In this game, you take on the role of a bird navigating from one side of the screen to the other, skillfully avoiding randomly appearing spikes along the way.</p>
+                        <div class="btn_container">
+                            <a class="btn btn_cta_projects btn_project" href="https://lior-hatiel.itch.io/spikes-avoider" target="_blank">To Play Online</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project_row">
+                    <div class="project_row_image"> 
+                        <img src="images/game/break_the_code.png" alt="example website screenshot" class="projects__row-img" loading="lazy">
+                    </div>
+                    <div class="project_row_text">
+                        <h3 class="project_row_text_title">Breaking The Code</h3>
+                        <p class="project_row_text_content">In this game, you find yourself faced with a four-digit code, each digit distinct from the others. Your objective is to decipher the code within a set number of attempts, utilizing hints provided along the way.</p>
+                        <div class="btn_container">
+                            <a class="btn btn_cta_projects btn_project" href="https://lior-hatiel.itch.io/breaking-the-code" target="_blank">To Play Online</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main_footer">
+        <div class="main_container_footer">
+            <div class="footer_content_container">
+                <div class="footer_info">
+                    <h2 class="footer_heading">Lior Hatiel</h2>
+                    <p class="footer_text">A third-year computer science student, self-taught in Unity game development, pursuing web development expertise.</p>
+                </div>
+                <div class="contact_info">
+                    <h2 class="footer_heading">Contact</h2>
+                    <!-- <p class="footer_text">I am available on the following social platforms. You can contact me using the details below.</p> -->
+                    <div class="contact_icons">
+                        <a href="https://www.linkedin.com/in/lior-hatiel/" target="_blank" class="fa fa-linkedin" style="font-size: 30px"></a>
+                        <a href="mailto:l.hatiel33@gmail.com" class="fa fa-google" style="font-size: 30px"></a>
+                        <a href="https://www.facebook.com/profile.php?id=100000631983286" target="_blank" class="fa fa-facebook" style="font-size: 30px"></a>
+                        <a href="https://www.instagram.com/lior_hatiel/" target="_blank" class="fa fa-instagram" style="font-size: 30px"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_copywrite_container">
+            <p class="copywrite">© Copyright 2023. Made by <a class="link_lior_on_copy highlight" href="#">Lior Hatiel</a>.</p>
+        </div>
+        
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
