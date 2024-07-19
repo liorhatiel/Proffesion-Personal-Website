@@ -69,7 +69,8 @@ header {
 }
 
 .navbar_a:hover {
-  color: #5821c9;
+/*   color: #5821c9; */
+  color: #fff;
 }
 
 .github_cta {
